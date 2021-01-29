@@ -43,4 +43,7 @@
     <dimen name="config_rounded_mask_size">130px</dimen>
     <dimen name="config_rounded_mask_size_top">120px</dimen>
     <dimen name="config_rounded_mask_size_bottom">130px</dimen>
+
+    <!-- Show battery icon in the QS Panel instead of in the header -->
+    <bool name="config_batteryInQSPanel">false</bool>
 </resources>
