@@ -107,6 +107,10 @@ on boot
     start vendor.rfs_access
 
     chown system system /sys/class/thermal/thermal_message/sconfig
+    
+    # Smart Charging
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chmod 0666 /sys/class/power_supply/battery/input_suspend
 
 on property:sys.boot_completed=1
     # Runtime fs tuning
