@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "Havoc-Devices/kernel_xiaomi_sm8150",
+    "target_path": "kernel/xiaomi/sm8150",
+    "branch": "eleven"
+  },
+  {
+    "repository": "Havoc-Devices/android_device_xiaomi_cepheus",
+    "target_path": "device/xiaomi/cepheus",
+    "branch": "eleven"
+  },
+  {
+    "repository": "Havoc-Devices/android_vendor_xiaomi_cepheus",
+    "target_path": "vendor/xiaomi/cepheus",
+    "branch": "eleven"
+  }
+]
