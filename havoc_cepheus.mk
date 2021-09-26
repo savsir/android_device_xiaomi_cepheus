@@ -20,8 +20,6 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 9
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_FACE_UNLOCK := true
-HAVOC_MAINTAINER := Savsır Cankat Özbay (savsir)
-HAVOC_GROUP_URL := https://t.me/havoc_cepheus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="cepheus" \
